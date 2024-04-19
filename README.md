@@ -191,7 +191,7 @@ forge test --zksync
 
 ## Compatibilities
 
-- Solc Version: `0.8.25`
+- Solc Version: `0.8.24`
 - Chain(s) to deploy contract to:
   - zkSync
 - Deployment address:
