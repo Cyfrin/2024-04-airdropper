@@ -15,9 +15,9 @@ install :; forge install foundry-rs/forge-std@v1.8.1 --no-commit && forge instal
 # Update Dependencies
 update:; forge update
 
-build:; forge build
+build:; FOUNDRY_SOLC_VERSION=0.8.24 forge build --zksync
 
-test :; forge test 
+test :; forge test --zksync
 
 coverage :; forge coverage --report debug > coverage-report.txt
 

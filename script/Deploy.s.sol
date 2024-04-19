@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.25;
+pragma solidity 0.8.24;
 
 import { MerkleAirdrop, IERC20 } from "../src/MerkleAirdrop.sol";
 import { Script } from "forge-std/Script.sol";

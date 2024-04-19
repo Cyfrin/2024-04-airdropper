@@ -4,6 +4,8 @@ out = "out"
 libs = ["lib"]
 remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts']
 ffi = true
+solc_version = "0.8.24"
+solc = "0.8.24"
 
 [invariant]
 runs = 64

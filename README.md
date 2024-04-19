@@ -2,10 +2,6 @@
 <img src="./img/airdropper.webp" width="400" alt="Airdropper">
 <br/>
 
-# TODO
-
-Add the zkSync-foundry stuff. 
-
 
 # Contest Details
 
@@ -30,7 +26,6 @@ _Don't use any part of this code without reviewing it and audit it._
 
 # Table of Contents
 
-- [TODO](#todo)
 - [Contest Details](#contest-details)
     - [Prize Pool](#prize-pool)
     - [Stats](#stats)
@@ -154,15 +149,19 @@ Optional:
 1. Install `foundry-zksync`
 There are a few [prerequiste steps](https://github.com/matter-labs/foundry-zksync?tab=readme-ov-file#-prerequisites) to installing this tool. Please see the [official documentation](https://github.com/matter-labs/foundry-zksync?tab=readme-ov-file#-prerequisites) before installing this.
 
-Once you have the prerequisites, come back here and do the following.
+Once you have the prerequisites, you can follow their [quickstart](https://github.com/matter-labs/foundry-zksync?tab=readme-ov-file#quick-install)
+
+This will override your existing `foundry` installation. You can know it's been done properly if you can run the following:
 
 ```bash
-git clone https://github.com/matter-labs/foundry-zksync
-git checkout v0.0.2-alpha.3
-cargo install --path ./crates/forge --profile local --force --locked
+forge build --help | grep zksync
 ```
 
-This will override your existing `foundry` installation. 
+and see an output like:
+
+```
+      --zksync
+```
 
 2. Clone the repository: 
 ```bash 
