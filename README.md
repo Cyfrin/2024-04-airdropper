@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./img/airdropper.webp" width="400" alt="Airdropper">
+<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/f6tkfc3qvzq1ffeixkyq?_a=BATAUVAA0" width="400" alt="Airdropper">
 <br/>
 
 
