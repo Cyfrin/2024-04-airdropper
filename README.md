@@ -1,28 +1,4 @@
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/f6tkfc3qvzq1ffeixkyq?_a=BATAUVAA0" width="400" alt="Airdropper">
-<br/>
-
-
-# Contest Details
-
-### Prize Pool
-
-- High - 100xp
-- Medium - 20xp
-- Low - 2xp
-
-- Starts: April 25, 2024 Noon UTC
-- Ends: May 02, 2024 Noon UTC
-
-### Stats
-
-- nSLOC: 62
-- Complexity Scope: 66
-
-### Disclaimer
-
-_This code was created for Codehawks as the first flight. It is made with bugs and flaws on purpose._
-_Don't use any part of this code without reviewing it and audit it._
+# First Flight #15: Airdropper
 
 # Table of Contents
 
@@ -45,6 +21,29 @@ _Don't use any part of this code without reviewing it and audit it._
   - [Compatibilities](#compatibilities)
 - [Roles](#roles)
 - [Known Issues](#known-issues)
+
+[//]: # (contest-details-open)
+
+# Contest Details
+
+### Prize Pool
+
+- High - 100xp
+- Medium - 20xp
+- Low - 2xp
+
+- Starts: April 25, 2024 Noon UTC
+- Ends: May 02, 2024 Noon UTC
+
+### Stats
+
+- nSLOC: 62
+- Complexity Scope: 66
+
+### Disclaimer
+
+_This code was created for Codehawks as the first flight. It is made with bugs and flaws on purpose._
+_Don't use any part of this code without reviewing it and audit it._
 
 
 # About
@@ -127,6 +126,14 @@ The [Cyfrin/CodeHawks](https://www.cyfrin.io/) team has convinced us that we nee
 
 We use the script found in `makeMerkle.js` to create the `s_merkleRoot`.
 
+## Roles
+
+Onwer - The one who can withdraw the fees earned by the `claim` function.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
+
 # Getting Started 
 
 ## Requirements 
@@ -178,6 +185,10 @@ This will build the smart contracts with `forge build --zksync`.
 forge test --zksync
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 # Audit Scope Details
 
 - In Scope:
@@ -197,10 +208,12 @@ forge test --zksync
 - Deployment address:
   - 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
 
-# Roles
+[//]: # (scope-close)
 
-Onwer - The one who can withdraw the fees earned by the `claim` function.
+[//]: # (known-issues-open)
 
 # Known Issues
 
 - None
+
+[//]: # (known-issues-close)
