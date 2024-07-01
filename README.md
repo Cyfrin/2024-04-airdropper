@@ -22,8 +22,6 @@
 - [Roles](#roles)
 - [Known Issues](#known-issues)
 
-[//]: # (contest-details-open)
-
 # Contest Details
 
 ### Prize Pool
@@ -40,11 +38,12 @@
 - nSLOC: 62
 - Complexity Scope: 66
 
+[//]: # (contest-details-open)
+
 ### Disclaimer
 
 _This code was created for Codehawks as the first flight. It is made with bugs and flaws on purpose._
 _Don't use any part of this code without reviewing it and audit it._
-
 
 # About
 
